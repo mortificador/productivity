@@ -24,7 +24,12 @@ nnoremap <leader>a :wq<cr>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<cr>
 
-" Select
+" Explore
+nnoremap <leader>ee :Explore<cr>
+nnoremap <leader>se :Sexplore<cr>
+nnoremap <leader>ve :Vexplore<cr>
+
+" Select 
 nnoremap <leader>s V
 
 " Go to end of file
